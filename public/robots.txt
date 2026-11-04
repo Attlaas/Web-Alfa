@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /Web-Alfa/ThankYou
+Disallow: /Web-Alfa/gracias
+
+Sitemap: https://attlaas.github.io/Web-Alfa/sitemap.xml

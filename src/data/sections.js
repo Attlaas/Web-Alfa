@@ -1,0 +1,98 @@
+export const SECTIONS = [
+  {
+    id: 'top',
+    label: 'Portada',
+    tag: 'una ventana flotante, no una nube',
+    keywords: ['inicio', 'alfa', 'asistente', 'presentacion', 'cabecera', 'resumen', 'voz'],
+  },
+  {
+    id: 'proyecto',
+    label: 'El proyecto',
+    tag: 'qué es ALFA y cómo se comporta',
+    keywords: ['expediente', 'descripcion', 'consola', 'sala de mando', 'windows', 'beta cerrada', 'registro'],
+  },
+  {
+    id: 'capaz',
+    label: 'Capacidades',
+    tag: 'lo que ya sabe hacer',
+    keywords: ['funciones', 'tareas', 'recordatorios', 'memoria', 'documentos', 'internet', 'control', 'seguridad', 'iniciativa', 'movil'],
+  },
+  {
+    id: 'motor',
+    label: 'Cómo está construido',
+    tag: 'motor local, Guardián, Núcleo y voz',
+    keywords: ['arquitectura', 'por dentro', 'alfa-core', 'modelo', 'qwen', 'guardian', 'nucleo', 'voz', 'aprendizaje', 'requisitos', 'hardware', 'ram', 'python'],
+  },
+  {
+    id: 'autor',
+    label: 'Autor: Atlas y la IA',
+    tag: 'una persona y una máquina',
+    keywords: ['quien lo hace', 'atlas', 'autor', 'autoria', 'creditos', 'ia', 'propiedad intelectual'],
+  },
+  {
+    id: 'equipo',
+    label: 'Equipo y voluntariado',
+    tag: 'colaborar a cambio de crédito',
+    keywords: ['colaborar', 'voluntarios', 'trabajar', 'candidatura', 'cv', 'roles', 'programar', 'traducir', 'probar'],
+  },
+  {
+    id: 'donativo',
+    label: 'En qué se usa el donativo',
+    tag: 'a dónde va cada aportación',
+    keywords: ['financiacion', 'dinero', 'gastos', 'creditos de ia', 'gpu', 'instalador firmado', 'pruebas', 'equipo'],
+  },
+  {
+    id: 'hitos',
+    label: 'Cifras del proyecto',
+    tag: 'versiones, módulos y líneas',
+    keywords: ['contador', 'numeros', 'metricas', 'versiones', 'modulos', 'lineas', 'codigo', 'datos'],
+  },
+  {
+    id: 'avance',
+    label: 'Hoja de ruta',
+    tag: 'las etapas que faltan',
+    keywords: ['roadmap', 'etapas', 'futuro', 'planes', 'instalador', 'version 1.0', 'descarga'],
+  },
+  {
+    id: 'logros',
+    label: 'Historial de hitos',
+    tag: 'lo que ya está entregado',
+    keywords: ['historial', 'logros', 'logrado', 'conseguido', 'entregado', 'recorrido'],
+  },
+  {
+    id: 'cobertura',
+    label: 'Dónde operamos',
+    tag: 'una base y alcance mundial',
+    keywords: ['mapa', 'ubicacion', 'ubicaciones', 'donde operamos', 'base', 'cobertura', 'alcance', 'global', 'mundial', 'ciudad', 'paises', 'mapa interactivo'],
+  },
+  {
+    id: 'novedades',
+    label: 'Novedades',
+    tag: 'bitácora firmada por Atlas',
+    keywords: ['blog', 'noticias', 'actualizaciones', 'bitacora', 'diario', 'ultimas'],
+  },
+  {
+    id: 'panel',
+    label: 'Apoyo recibido',
+    tag: 'cuánto se ha reunido',
+    keywords: ['donaciones', 'estadisticas', 'recaudado', 'apoyos', 'tramos', 'transparencia'],
+  },
+  {
+    id: 'donar',
+    label: 'Donar al proyecto',
+    tag: 'aportar desde 3 €',
+    keywords: ['donar', 'aportar', 'ko-fi', 'paypal', 'pago', 'puntual', 'gracias'],
+  },
+  {
+    id: 'faq',
+    label: 'Preguntas frecuentes',
+    tag: 'dudas resueltas por Atlas',
+    keywords: ['faq', 'dudas', 'preguntas', 'respuestas', 'consciencia', 'privacidad', 'datos'],
+  },
+  {
+    id: 'contacto',
+    label: 'Contacto',
+    tag: 'escribir directamente a Atlas',
+    keywords: ['contacto', 'mensaje', 'escribir', 'correo', 'email', 'consulta', 'sugerencia', 'error', 'hola'],
+  },
+];

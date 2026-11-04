@@ -1,0 +1,24 @@
+{
+  "name": "ALFA · Asistente de IA local para Windows",
+  "short_name": "ALFA",
+  "description": "Asistente personal de inteligencia artificial que vive en tu ordenador: voz propia, memoria permanente y control del equipo con permiso. Sin cuentas ni cuotas. Proyecto independiente de Atlas, financiado con donativos voluntarios.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#0B1020",
+  "background_color": "#0B1020",
+  "categories": [
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "alfa-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
