@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.28.0-beta «Buenos días»';
+export const VERSION = '0.30.0-beta «Buenas noches»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,14 +46,14 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '28', label: 'versiones entregadas' },
+  { value: '30', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
 ];
 
 export const HERO_CONSOLE = [
-  { prompt: 'alfa, ¿qué tengo hoy?', lines: ['3 tareas · 1 recordatorio a las 18:00', 'te aviso en voz alta cuando toque'] },
+  { prompt: 'alfa, ¿qué tengo hoy?', lines: ['viernes 6 de noviembre · 14 grados y nublado', '2 tareas: pan a las 09:15 · médico a las 10:00'] },
   { prompt: 'abre el navegador y busca el tiempo en Madrid', lines: ['[guardian] seguro · ejecutando'] },
   { prompt: 'apunta que el jueves tengo revisión', lines: ['guardado en memoria · lo recordaré'] },
 ];
@@ -67,7 +67,7 @@ export const CAPABILITIES = [
   {
     icon: ListChecks,
     title: 'Tareas y recordatorios',
-    text: 'Crea, guarda y te avisa en voz alta cuando toca, sin que tengas que mirar la pantalla.',
+    text: 'Crea, guarda y te avisa en voz alta cuando toca. Pregúntale «¿qué tengo hoy?» o «¿qué tengo mañana?» y te cuenta el día; por la mañana te da los buenos días y por la noche te repasa el día siguiente.',
   },
   {
     icon: Brain,
@@ -170,6 +170,18 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.30.0-beta',
+    name: '«Buenas noches»',
+    status: 'entregada',
+    text: 'Si estás con ella por la noche, una vez te repasa lo que te queda de hoy y cómo viene mañana: el tiempo y lo que tienes apuntado con sus horas.',
+  },
+  {
+    version: '0.29.0-beta',
+    name: '«Mi día»',
+    status: 'entregada',
+    text: 'Pregúntale «¿qué tengo hoy?» o «¿qué tengo mañana?» a cualquier hora y te cuenta el día: fecha, tiempo donde estás, tus tareas con su hora y una noticia, sin inventarse nada.',
+  },
   {
     version: '0.28.0-beta',
     name: '«Buenos días»',

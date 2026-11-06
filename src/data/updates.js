@@ -3,6 +3,22 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-30',
+    title: 'ALFA 0.30.0-beta «Buenas noches»',
+    body: 'Si estás con ALFA por la noche, una vez te hace un repaso: lo que te queda de hoy sin marcar y cómo viene mañana, con el tiempo y lo que tienes apuntado.\nSe puede apagar en Ajustes, y ALFA ya da la dirección de esta web nueva cuando le preguntan dónde descargarla o cómo apoyarla.',
+    tag: 'versión',
+    published_date: '2026-11-06',
+    status: 'publicado',
+  },
+  {
+    id: 'v0-29',
+    title: 'ALFA 0.29.0-beta «Mi día»',
+    body: 'Ahora puedes preguntarle «¿qué tengo hoy?» o «¿qué tengo mañana?» a cualquier hora: te cuenta la fecha, el tiempo donde estás, tus tareas con su hora y una noticia.\nEl resumen sale de tus datos reales, así que responde rápido y no se inventa nada.',
+    tag: 'versión',
+    published_date: '2026-11-05',
+    status: 'publicado',
+  },
+  {
     id: 'web-nueva-casa',
     title: 'La web de ALFA estrena casa',
     body: 'Esta página se ha mudado a un alojamiento gratuito y propio, sin depender de ninguna plataforma de pago. El contenido es el mismo y a partir de ahora se actualiza con cada versión.\nLos donativos pasan a hacerse con un enlace directo y seguro, y el contacto llega por correo a Atlas.',
