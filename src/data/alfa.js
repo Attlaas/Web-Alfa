@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.31.0-beta «Mi semana»';
+export const VERSION = '0.32.0-beta «Cada lunes»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '31', label: 'versiones entregadas' },
+  { value: '32', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -67,7 +67,7 @@ export const CAPABILITIES = [
   {
     icon: ListChecks,
     title: 'Tareas y recordatorios',
-    text: 'Crea, guarda y te avisa en voz alta cuando toca. Pregúntale «¿qué tengo hoy?», «¿qué tengo mañana?» o «¿qué tengo esta semana?» y te lo cuenta; por la mañana te da los buenos días y por la noche te repasa el día siguiente.',
+    text: 'Crea, guarda y te avisa en voz alta cuando toca, también cada día, cada lunes o cada mes. Pregúntale «¿qué tengo hoy?», «¿qué tengo mañana?» o «¿qué tengo esta semana?» y te lo cuenta; por la mañana te da los buenos días y por la noche te repasa el día siguiente.',
   },
   {
     icon: Brain,
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.32.0-beta',
+    name: '«Cada lunes»',
+    status: 'entregada',
+    text: 'Recordatorios que se repiten: «recuérdame el gimnasio cada lunes a las 19» o «la pastilla todos los días a las 9». Te avisa cada vez y deja programada la siguiente.',
+  },
   {
     version: '0.31.0-beta',
     name: '«Mi semana»',

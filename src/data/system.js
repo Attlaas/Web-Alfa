@@ -4,7 +4,7 @@ export const SYSTEM_STATUS = [
   { label: 'voz', value: 'realista · local', state: 'ok' },
   { label: 'móvil', value: 'sincronizado', state: 'ok' },
   { label: 'motor', value: 'local · sin cuotas', state: 'ok' },
-  { label: 'versión', value: '0.31.0-beta', state: 'idle' },
+  { label: 'versión', value: '0.32.0-beta', state: 'idle' },
   { label: 'módulos', value: '77 propios', state: 'idle' },
   { label: 'código', value: '15.839 líneas', state: 'idle' },
 ];
@@ -19,7 +19,7 @@ export const SYSTEM_ALERTS = [
 ];
 
 export const SYSTEM_LOG = [
-  'iniciando alfa 0.31.0-beta «mi semana»…',
+  'iniciando alfa 0.32.0-beta «cada lunes»…',
   'motor local cargado · cero servicios de pago',
   'memoria leída · ninguna dependencia de nube',
   'guardián armado · 4 niveles de revisión',

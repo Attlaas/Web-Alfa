@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-32',
+    title: 'ALFA 0.32.0-beta «Cada lunes»',
+    body: 'Los recordatorios ya se pueden repetir: cada día, de lunes a viernes, cada semana o cada mes. Por ejemplo: «recuérdame ir al gimnasio cada lunes a las 19».\nALFA te avisa cada vez y deja programada la siguiente; si la marcas como hecha, pasa a la próxima vez en lugar de desaparecer.',
+    tag: 'versión',
+    published_date: '2026-11-08',
+    status: 'publicado',
+  },
+  {
     id: 'v0-31',
     title: 'ALFA 0.31.0-beta «Mi semana»',
     body: 'Ahora puedes preguntarle «¿qué tengo esta semana?» y te cuenta, día a día y en orden, lo que tienes apuntado para los próximos siete días.\nLos lunes, el saludo de la mañana te adelanta la semana sin que se lo pidas.',
