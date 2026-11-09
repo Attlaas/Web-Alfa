@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.32.0-beta «Cada lunes»';
+export const VERSION = '0.33.0-beta «Cámbialo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '32', label: 'versiones entregadas' },
+  { value: '33', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.33.0-beta',
+    name: '«Cámbialo»',
+    status: 'entregada',
+    text: 'Cambia tus recordatorios hablando: «cambia lo del pan a las 8» o «ya no me recuerdes el gimnasio cada lunes». ALFA cambia la tarea que ya tienes en vez de crear otra.',
+  },
   {
     version: '0.32.0-beta',
     name: '«Cada lunes»',
