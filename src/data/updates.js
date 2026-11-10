@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-34',
+    title: 'ALFA 0.34.0-beta «Pospónlo»',
+    body: '¿Te avisa de algo justo cuando no puedes? Dile «pospónlo», «recuérdamelo en media hora» o «avísame otra vez en una hora» y te lo vuelve a recordar en ese tiempo.\nNo hace falta repetir de qué era el aviso, y si es un recordatorio de cada semana, la próxima vez sigue en su sitio.',
+    tag: 'versión',
+    published_date: '2026-11-10',
+    status: 'publicado',
+  },
+  {
     id: 'v0-33',
     title: 'ALFA 0.33.0-beta «Cámbialo»',
     body: 'Ahora puedes cambiar tus recordatorios hablando: «cambia lo del pan a las 8», «muévelo al jueves» o «ya no me recuerdes el gimnasio cada lunes».\nALFA cambia la tarea que ya tienes, sin borrarla ni duplicarla, y si cambias la hora te avisa a la nueva.',
