@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.34.0-beta «Pospónlo»';
+export const VERSION = '0.35.0-beta «En el bolsillo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '34', label: 'versiones entregadas' },
+  { value: '35', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -143,7 +143,7 @@ export const HOOD = [
 export const MOBILE = {
   icon: Smartphone,
   title: 'ALFA Móvil, el mando a distancia',
-  text: 'Aplicación para Android que muestra y edita las tareas, la memoria y el diario de ALFA, te deja hablarle desde el teléfono y ver el estado de tu PC y del Núcleo. El razonamiento sigue ocurriendo en el ordenador; los mensajes viajan firmados y las acciones peligrosas se confirman siempre en el PC.',
+  text: 'Aplicación para Android que muestra y edita las tareas, la memoria y el diario de ALFA, te avisa de tus recordatorios (también los de cada lunes o cada día, con botón de «+10 min»), te deja hablarle desde el teléfono y ver el estado de tu PC y del Núcleo. El razonamiento sigue ocurriendo en el ordenador; los mensajes viajan firmados y las acciones peligrosas se confirman siempre en el PC.',
 };
 
 export const FUNDING_USE = [
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.35.0-beta',
+    name: '«En el bolsillo»',
+    status: 'entregada',
+    text: 'ALFA Móvil entiende los recordatorios que se repiten igual que el PC y deja posponerlos diez minutos con un botón. Arreglado un fallo que dejaba callado el aviso de «cada lunes» si sonaba primero en el móvil.',
+  },
   {
     version: '0.34.0-beta',
     name: '«Pospónlo»',

@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-35',
+    title: 'ALFA 0.35.0-beta «En el bolsillo»',
+    body: 'ALFA Móvil ya entiende los recordatorios que se repiten: te avisa del gimnasio del lunes y lo deja listo para el siguiente, igual que el PC. Y si suena en mal momento, el botón «+10 MIN» te lo vuelve a recordar en diez minutos.\nDe paso hemos arreglado un fallo: si el móvil avisaba primero de una tarea de «cada lunes», esta dejaba de sonar para siempre.',
+    tag: 'versión',
+    published_date: '2026-11-11',
+    status: 'publicado',
+  },
+  {
     id: 'v0-34',
     title: 'ALFA 0.34.0-beta «Pospónlo»',
     body: '¿Te avisa de algo justo cuando no puedes? Dile «pospónlo», «recuérdamelo en media hora» o «avísame otra vez en una hora» y te lo vuelve a recordar en ese tiempo.\nNo hace falta repetir de qué era el aviso, y si es un recordatorio de cada semana, la próxima vez sigue en su sitio.',
