@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-36',
+    title: 'ALFA 0.36.0-beta «Cuenta atrás»',
+    body: 'Ya tiene temporizadores: «pon un temporizador de 10 minutos», «cuenta atrás de 30 segundos» o «temporizador de media hora para la pasta». Entiende «minuto y medio» o «una hora y media», avisa al segundo con voz y sonido, y al acabar desaparece solo de tus tareas.\nSi te pilla en mal momento, «pospónlo» funciona igual que con los recordatorios.',
+    tag: 'versión',
+    published_date: '2026-11-12',
+    status: 'publicado',
+  },
+  {
     id: 'v0-35',
     title: 'ALFA 0.35.0-beta «En el bolsillo»',
     body: 'ALFA Móvil ya entiende los recordatorios que se repiten: te avisa del gimnasio del lunes y lo deja listo para el siguiente, igual que el PC. Y si suena en mal momento, el botón «+10 MIN» te lo vuelve a recordar en diez minutos.\nDe paso hemos arreglado un fallo: si el móvil avisaba primero de una tarea de «cada lunes», esta dejaba de sonar para siempre.',

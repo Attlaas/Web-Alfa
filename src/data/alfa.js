@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.35.0-beta «En el bolsillo»';
+export const VERSION = '0.36.0-beta «Cuenta atrás»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '35', label: 'versiones entregadas' },
+  { value: '36', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -67,7 +67,7 @@ export const CAPABILITIES = [
   {
     icon: ListChecks,
     title: 'Tareas y recordatorios',
-    text: 'Crea, guarda y te avisa en voz alta cuando toca, también cada día, cada lunes o cada mes; si te pilla ocupado, dile «pospónlo» y te lo recuerda más tarde. Pregúntale «¿qué tengo hoy?», «¿qué tengo mañana?» o «¿qué tengo esta semana?» y te lo cuenta; por la mañana te da los buenos días y por la noche te repasa el día siguiente.',
+    text: 'Crea, guarda y te avisa en voz alta cuando toca, también cada día, cada lunes o cada mes; si te pilla ocupado, dile «pospónlo» y te lo recuerda más tarde. Y para la cocina, «pon un temporizador de 10 minutos». Pregúntale «¿qué tengo hoy?», «¿qué tengo mañana?» o «¿qué tengo esta semana?» y te lo cuenta; por la mañana te da los buenos días y por la noche te repasa el día siguiente.',
   },
   {
     icon: Brain,
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.36.0-beta',
+    name: '«Cuenta atrás»',
+    status: 'entregada',
+    text: 'Temporizadores por voz: «pon un temporizador de 10 minutos», «cuenta atrás de 30 segundos» o «media hora para la pasta». Avisa al segundo y desaparece solo de la lista.',
+  },
   {
     version: '0.35.0-beta',
     name: '«En el bolsillo»',
