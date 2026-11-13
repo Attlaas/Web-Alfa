@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-37',
+    title: 'ALFA 0.37.0-beta «Despiértame»',
+    body: 'ALFA ya hace de despertador: «despiértame a las 7», «pon una alarma a las 7 y media de la tarde» o «a las 8 menos cuarto». Si la hora ya ha pasado, es para mañana.\nY con los temporizadores puedes preguntar «¿cuánto queda?» o decir «cancela el temporizador».',
+    tag: 'versión',
+    published_date: '2026-11-13',
+    status: 'publicado',
+  },
+  {
     id: 'v0-36',
     title: 'ALFA 0.36.0-beta «Cuenta atrás»',
     body: 'Ya tiene temporizadores: «pon un temporizador de 10 minutos», «cuenta atrás de 30 segundos» o «temporizador de media hora para la pasta». Entiende «minuto y medio» o «una hora y media», avisa al segundo con voz y sonido, y al acabar desaparece solo de tus tareas.\nSi te pilla en mal momento, «pospónlo» funciona igual que con los recordatorios.',
