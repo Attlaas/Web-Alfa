@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-38',
+    title: 'ALFA 0.38.0-beta «Cuentas claras»',
+    body: 'Pregúntale «¿cuánto es el 15 % de 230?», «23 por 47» o «raíz cuadrada de 81» y te da el resultado exacto, escrito a la española (1.081 · 34,5). Los modelos pequeños se equivocan con las cuentas; ALFA ya no las hace de cabeza.\nY también: «¿cuánto falta para Navidad?» o «¿qué día cae el 3 de marzo?».',
+    tag: 'versión',
+    published_date: '2026-11-14',
+    status: 'publicado',
+  },
+  {
     id: 'v0-37',
     title: 'ALFA 0.37.0-beta «Despiértame»',
     body: 'ALFA ya hace de despertador: «despiértame a las 7», «pon una alarma a las 7 y media de la tarde» o «a las 8 menos cuarto». Si la hora ya ha pasado, es para mañana.\nY con los temporizadores puedes preguntar «¿cuánto queda?» o decir «cancela el temporizador».',
