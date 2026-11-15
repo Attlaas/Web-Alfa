@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.38.0-beta «Cuentas claras»';
+export const VERSION = '0.39.0-beta «Cambio de unidades»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '38', label: 'versiones entregadas' },
+  { value: '39', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -62,7 +62,7 @@ export const CAPABILITIES = [
   {
     icon: Mic,
     title: 'Habla y escucha',
-    text: 'Atiende órdenes por voz desde la palabra «Alfa» o por escrito, y responde en pantalla con una voz femenina realista generada en tu propio PC. Las cuentas («¿cuánto es el 15 % de 230?») y las fechas («¿cuánto falta para Navidad?») las hace exactas, sin inventar.',
+    text: 'Atiende órdenes por voz desde la palabra «Alfa» o por escrito, y responde en pantalla con una voz femenina realista generada en tu propio PC. Las cuentas («¿cuánto es el 15 % de 230?») las fechas («¿cuánto falta para Navidad?») y las unidades («10 millas a km») las hace exactas, sin inventar.',
   },
   {
     icon: ListChecks,
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.39.0-beta',
+    name: '«Cambio de unidades»',
+    status: 'entregada',
+    text: 'Conversión de unidades exacta: «10 millas a km», «100 Fahrenheit en Celsius», «¿cuántos gramos son 3 onzas?». Distancia, peso, temperatura, cocina, velocidad y datos.',
+  },
   {
     version: '0.38.0-beta',
     name: '«Cuentas claras»',

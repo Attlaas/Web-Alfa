@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-39',
+    title: 'ALFA 0.39.0-beta «Cambio de unidades»',
+    body: 'Pregúntale «10 millas a km», «100 grados Fahrenheit en Celsius», «5 libras en kilos» o «¿cuántos gramos son 3 onzas?» y te da la conversión exacta. Sirve también en la cocina (tazas, cucharadas, mililitros), con velocidades y con gigas.\nEntiende los números dichos con palabras: «diez millas», «medio litro», «un kilo y medio».',
+    tag: 'versión',
+    published_date: '2026-11-15',
+    status: 'publicado',
+  },
+  {
     id: 'v0-38',
     title: 'ALFA 0.38.0-beta «Cuentas claras»',
     body: 'Pregúntale «¿cuánto es el 15 % de 230?», «23 por 47» o «raíz cuadrada de 81» y te da el resultado exacto, escrito a la española (1.081 · 34,5). Los modelos pequeños se equivocan con las cuentas; ALFA ya no las hace de cabeza.\nY también: «¿cuánto falta para Navidad?» o «¿qué día cae el 3 de marzo?».',
