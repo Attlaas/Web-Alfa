@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-40',
+    title: 'ALFA 0.40.0-beta «Al cambio»',
+    body: 'Ahora también cambia moneda: «20 € a dólares», «¿cuántos euros son 30 dólares?», «100 libras a euros» o «1.000 yenes a euros». Usa el tipo oficial del Banco Central Europeo (un servicio abierto, sin cuentas) y te dice de qué día es.\nSin conexión usa el último que guardó, y si una moneda no tiene tipo oficial te lo dice en vez de inventarlo.',
+    tag: 'versión',
+    published_date: '2026-11-16',
+    status: 'publicado',
+  },
+  {
     id: 'v0-39',
     title: 'ALFA 0.39.0-beta «Cambio de unidades»',
     body: 'Pregúntale «10 millas a km», «100 grados Fahrenheit en Celsius», «5 libras en kilos» o «¿cuántos gramos son 3 onzas?» y te da la conversión exacta. Sirve también en la cocina (tazas, cucharadas, mililitros), con velocidades y con gigas.\nEntiende los números dichos con palabras: «diez millas», «medio litro», «un kilo y medio».',

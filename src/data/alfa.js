@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.39.0-beta «Cambio de unidades»';
+export const VERSION = '0.40.0-beta «Al cambio»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '39', label: 'versiones entregadas' },
+  { value: '40', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -62,7 +62,7 @@ export const CAPABILITIES = [
   {
     icon: Mic,
     title: 'Habla y escucha',
-    text: 'Atiende órdenes por voz desde la palabra «Alfa» o por escrito, y responde en pantalla con una voz femenina realista generada en tu propio PC. Las cuentas («¿cuánto es el 15 % de 230?») las fechas («¿cuánto falta para Navidad?») y las unidades («10 millas a km») las hace exactas, sin inventar.',
+    text: 'Atiende órdenes por voz desde la palabra «Alfa» o por escrito, y responde en pantalla con una voz femenina realista generada en tu propio PC. Las cuentas («¿cuánto es el 15 % de 230?») las fechas («¿cuánto falta para Navidad?») las unidades («10 millas a km») y el cambio de moneda («20 € a dólares», al tipo oficial del día) los hace exactos, sin inventar.',
   },
   {
     icon: ListChecks,
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.40.0-beta',
+    name: '«Al cambio»',
+    status: 'entregada',
+    text: 'Cambio de moneda con el tipo oficial del Banco Central Europeo: «20 € a dólares», «¿cuántos euros son 30 dólares?». Sin conexión usa el último que guardó y te avisa.',
+  },
   {
     version: '0.39.0-beta',
     name: '«Cambio de unidades»',
