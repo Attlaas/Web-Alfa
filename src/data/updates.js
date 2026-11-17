@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-41',
+    title: 'ALFA 0.41.0-beta «Cuentas de bolsillo»',
+    body: 'ALFA Móvil ya no necesita el PC para lo rápido: «¿cuánto es el 15 % de 230?», «10 millas a km», «20 € a dólares» o «¿cuánto falta para Navidad?» se contestan en el propio teléfono, al instante, aunque el ordenador esté apagado.\nUsa exactamente el mismo código que ALFA en Windows, así que los dos dan siempre el mismo resultado.',
+    tag: 'versión',
+    published_date: '2026-11-17',
+    status: 'publicado',
+  },
+  {
     id: 'v0-40',
     title: 'ALFA 0.40.0-beta «Al cambio»',
     body: 'Ahora también cambia moneda: «20 € a dólares», «¿cuántos euros son 30 dólares?», «100 libras a euros» o «1.000 yenes a euros». Usa el tipo oficial del Banco Central Europeo (un servicio abierto, sin cuentas) y te dice de qué día es.\nSin conexión usa el último que guardó, y si una moneda no tiene tipo oficial te lo dice en vez de inventarlo.',

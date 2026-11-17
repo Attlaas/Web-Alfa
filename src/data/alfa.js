@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.40.0-beta «Al cambio»';
+export const VERSION = '0.41.0-beta «Cuentas de bolsillo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '40', label: 'versiones entregadas' },
+  { value: '41', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.41.0-beta',
+    name: '«Cuentas de bolsillo»',
+    status: 'entregada',
+    text: 'ALFA Móvil contesta solo, sin el PC: cuentas, unidades, cambio de moneda y «¿cuánto falta para Navidad?», al instante aunque el ordenador esté apagado.',
+  },
   {
     version: '0.40.0-beta',
     name: '«Al cambio»',
