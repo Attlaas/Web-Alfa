@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.41.0-beta «Cuentas de bolsillo»';
+export const VERSION = '0.42.0-beta «Reloj de bolsillo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '41', label: 'versiones entregadas' },
+  { value: '42', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.42.0-beta',
+    name: '«Reloj de bolsillo»',
+    status: 'entregada',
+    text: 'Temporizadores y alarmas en ALFA Móvil sin el PC: «pon un temporizador de 10 minutos para la pasta», «despiértame a las 7 y media». Suenan al segundo y se ven en los dos.',
+  },
   {
     version: '0.41.0-beta',
     name: '«Cuentas de bolsillo»',
