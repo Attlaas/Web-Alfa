@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-43',
+    title: 'ALFA 0.43.0-beta «Agenda de bolsillo»',
+    body: 'Pregúntale al móvil «¿qué tengo hoy?», «¿y mañana?» o «¿qué tengo esta semana?» y te lo dice al momento, aunque el PC esté apagado: lo que tienes apuntado con su hora, lo atrasado y lo pendiente.\nY cuando te avise de algo, dile «pospónlo» o «recuérdamelo en media hora».',
+    tag: 'versión',
+    published_date: '2026-11-19',
+    status: 'publicado',
+  },
+  {
     id: 'v0-42',
     title: 'ALFA 0.42.0-beta «Reloj de bolsillo»',
     body: 'ALFA Móvil ya pone temporizadores y alarmas él solo, sin el PC: «pon un temporizador de 10 minutos para la pasta», «despiértame a las 7 y media», «¿cuánto queda?» o «cancela el temporizador». Suena al segundo, con «¡Tiempo!» o «Son las 07:30».\nY como usan el mismo formato que en Windows, los ves y los cancelas desde los dos.',
