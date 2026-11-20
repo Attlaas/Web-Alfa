@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-44',
+    title: 'ALFA 0.44.0-beta «Apúntalo»',
+    body: 'Dile al móvil «apúntame llamar a mamá mañana a las 9», «recuérdame el lunes a las 8 y media que tengo dentista» o «avísame en 10 minutos que saque la pizza» y lo apunta él solo, aunque el PC esté apagado. Entiende hoy, mañana, pasado mañana, el viernes, el 3 de marzo o «esta tarde».\nY suena a su hora, con las tareas sincronizadas con el PC.',
+    tag: 'versión',
+    published_date: '2026-11-20',
+    status: 'publicado',
+  },
+  {
     id: 'v0-43',
     title: 'ALFA 0.43.0-beta «Agenda de bolsillo»',
     body: 'Pregúntale al móvil «¿qué tengo hoy?», «¿y mañana?» o «¿qué tengo esta semana?» y te lo dice al momento, aunque el PC esté apagado: lo que tienes apuntado con su hora, lo atrasado y lo pendiente.\nY cuando te avise de algo, dile «pospónlo» o «recuérdamelo en media hora».',

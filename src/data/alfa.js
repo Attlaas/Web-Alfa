@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.43.0-beta «Agenda de bolsillo»';
+export const VERSION = '0.44.0-beta «Apúntalo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '43', label: 'versiones entregadas' },
+  { value: '44', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.44.0-beta',
+    name: '«Apúntalo»',
+    status: 'entregada',
+    text: 'Apunta tareas con fecha y hora desde el móvil, sin el PC: «apúntame llamar a mamá mañana a las 9», «recuérdame el lunes que tengo dentista». Suenan a su hora.',
+  },
   {
     version: '0.43.0-beta',
     name: '«Agenda de bolsillo»',
