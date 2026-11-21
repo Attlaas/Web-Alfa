@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.44.0-beta «Apúntalo»';
+export const VERSION = '0.45.0-beta «Cada lunes»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '44', label: 'versiones entregadas' },
+  { value: '45', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.45.0-beta',
+    name: '«Cada lunes»',
+    status: 'entregada',
+    text: 'Tareas que se repiten, dichas de palabra: «recuérdame cada lunes a las 8 ir al gimnasio», «todos los días a las 9», «de lunes a viernes», «cada mes el día 1». En el móvil y en Windows.',
+  },
   {
     version: '0.44.0-beta',
     name: '«Apúntalo»',

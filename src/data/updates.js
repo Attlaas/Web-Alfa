@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-45',
+    title: 'ALFA 0.45.0-beta «Cada lunes»',
+    body: 'Ahora las tareas pueden repetirse: «recuérdame cada lunes a las 8 ir al gimnasio», «apunta tomar la pastilla todos los días a las 9 de la noche», «de lunes a viernes a las 7 sacar al perro» o «pagar el alquiler cada mes el día 1». Funciona en el móvil sin el PC y en Windows.\nY en Windows, «apúntame…» con fecha ya no depende del modelo: ALFA la apunta exacta él solo, sin duplicados.',
+    tag: 'versión',
+    published_date: '2026-11-21',
+    status: 'publicado',
+  },
+  {
     id: 'v0-44',
     title: 'ALFA 0.44.0-beta «Apúntalo»',
     body: 'Dile al móvil «apúntame llamar a mamá mañana a las 9», «recuérdame el lunes a las 8 y media que tengo dentista» o «avísame en 10 minutos que saque la pizza» y lo apunta él solo, aunque el PC esté apagado. Entiende hoy, mañana, pasado mañana, el viernes, el 3 de marzo o «esta tarde».\nY suena a su hora, con las tareas sincronizadas con el PC.',
