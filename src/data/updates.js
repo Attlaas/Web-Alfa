@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-46',
+    title: 'ALFA 0.46.0-beta «Tachado»',
+    body: 'Ahora puedes tachar tareas hablando: «ya he llamado a mamá», «tacha comprar pan», «marca como hecha la del dentista», «borra la tarea del gimnasio» o «ya no tengo que ir al banco». ALFA encuentra la tarea aunque no la digas igual y, si hay varias parecidas, te pregunta cuál.\nFunciona en el móvil sin el PC y en Windows. Las tareas que se repiten pasan solas a la próxima vez.',
+    tag: 'versión',
+    published_date: '2026-11-22',
+    status: 'publicado',
+  },
+  {
     id: 'v0-45',
     title: 'ALFA 0.45.0-beta «Cada lunes»',
     body: 'Ahora las tareas pueden repetirse: «recuérdame cada lunes a las 8 ir al gimnasio», «apunta tomar la pastilla todos los días a las 9 de la noche», «de lunes a viernes a las 7 sacar al perro» o «pagar el alquiler cada mes el día 1». Funciona en el móvil sin el PC y en Windows.\nY en Windows, «apúntame…» con fecha ya no depende del modelo: ALFA la apunta exacta él solo, sin duplicados.',
