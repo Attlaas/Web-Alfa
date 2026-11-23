@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.46.0-beta «Tachado»';
+export const VERSION = '0.47.0-beta «Cambio de planes»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '46', label: 'versiones entregadas' },
+  { value: '47', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.47.0-beta',
+    name: '«Cambio de planes»',
+    status: 'entregada',
+    text: 'Cambia de día u hora una tarea hablando: «pasa lo del dentista al viernes», «cambia lo de mamá a las 9 y media». Conserva la hora o el día que no digas. En el móvil sin el PC y en Windows.',
+  },
   {
     version: '0.46.0-beta',
     name: '«Tachado»',
