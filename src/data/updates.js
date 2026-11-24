@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-48',
+    title: 'ALFA 0.48.0-beta «Hora con sentido»',
+    body: 'Si dices «apunta el dentista el viernes a las 5», ALFA lo pone a las 17:00, no a las 05:00. De la 1 a las 6, una tarea sin «de la mañana» es por la tarde.\nLa madrugada sigue ahí si la pides («a las 5 de la mañana», «a las 05:30»), y los despertadores no cambian.',
+    tag: 'versión',
+    published_date: '2026-11-24',
+    status: 'publicado',
+  },
+  {
     id: 'v0-47',
     title: 'ALFA 0.47.0-beta «Cambio de planes»',
     body: '¿Te cambian la cita? Dile a ALFA «pasa lo del dentista al viernes», «cambia la tarea de llamar a mamá a las 9 y media» o «mueve comprar leche a mañana a las 6 de la tarde». Si solo dices el día, conserva la hora; si solo dices la hora, conserva el día.\nFunciona en el móvil sin el PC y en Windows, y la tarea vuelve a avisarte a su nueva hora.',

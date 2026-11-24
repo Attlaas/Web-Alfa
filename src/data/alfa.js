@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.47.0-beta «Cambio de planes»';
+export const VERSION = '0.48.0-beta «Hora con sentido»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '47', label: 'versiones entregadas' },
+  { value: '48', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.48.0-beta',
+    name: '«Hora con sentido»',
+    status: 'entregada',
+    text: '«El dentista a las 5» es a las 17:00: las horas de las tareas se entienden como las dice la gente. La madrugada, si la pides («a las 5 de la mañana»).',
+  },
   {
     version: '0.47.0-beta',
     name: '«Cambio de planes»',
