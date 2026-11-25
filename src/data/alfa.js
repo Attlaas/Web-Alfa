@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.48.0-beta «Hora con sentido»';
+export const VERSION = '0.49.0-beta «¿Cuándo era?»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '48', label: 'versiones entregadas' },
+  { value: '49', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.49.0-beta',
+    name: '«¿Cuándo era?»',
+    status: 'entregada',
+    text: 'Pregunta «¿cuándo tengo el dentista?» o «¿tengo apuntado comprar pan?» y ALFA te dice el día y la hora al momento. En el móvil sin el PC y en Windows.',
+  },
   {
     version: '0.48.0-beta',
     name: '«Hora con sentido»',

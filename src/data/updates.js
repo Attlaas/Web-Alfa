@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-49',
+    title: 'ALFA 0.49.0-beta «¿Cuándo era?»',
+    body: '¿No te acuerdas de cuándo era? Pregúntale a ALFA «¿cuándo tengo el dentista?», «¿a qué hora es lo del gimnasio?» o «¿tengo apuntado comprar pan?» y te dice el día y la hora, si se repite, o que no tiene fecha.\nFunciona en el móvil sin el PC y en Windows, y encuentra la tarea aunque no la digas igual.',
+    tag: 'versión',
+    published_date: '2026-11-25',
+    status: 'publicado',
+  },
+  {
     id: 'v0-48',
     title: 'ALFA 0.48.0-beta «Hora con sentido»',
     body: 'Si dices «apunta el dentista el viernes a las 5», ALFA lo pone a las 17:00, no a las 05:00. De la 1 a las 6, una tarea sin «de la mañana» es por la tarde.\nLa madrugada sigue ahí si la pides («a las 5 de la mañana», «a las 05:30»), y los despertadores no cambian.',
