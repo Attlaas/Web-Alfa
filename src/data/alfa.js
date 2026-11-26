@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.49.0-beta «¿Cuándo era?»';
+export const VERSION = '0.50.0-beta «Cielo de bolsillo»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '49', label: 'versiones entregadas' },
+  { value: '50', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.50.0-beta',
+    name: '«Cielo de bolsillo»',
+    status: 'entregada',
+    text: 'El tiempo en el móvil sin el PC: «¿qué tiempo hace en Sevilla?», «¿va a llover mañana?». Se acuerda de tu ciudad y funciona sin cuentas ni claves.',
+  },
   {
     version: '0.49.0-beta',
     name: '«¿Cuándo era?»',

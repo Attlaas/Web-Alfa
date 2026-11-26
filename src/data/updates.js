@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-50',
+    title: 'ALFA 0.50.0-beta «Cielo de bolsillo»',
+    body: '¡Versión 50! ALFA Móvil ya te dice el tiempo sin el PC: «¿qué tiempo hace en Sevilla?», «¿va a llover mañana?», «¿necesito paraguas?». Contesta en una frase con el cielo, las temperaturas, la probabilidad de lluvia y cómo está ahora.\nDi tu ciudad una vez y se acuerda. Sin cuentas ni claves (Open-Meteo), y sin conexión usa la última previsión.',
+    tag: 'versión',
+    published_date: '2026-11-26',
+    status: 'publicado',
+  },
+  {
     id: 'v0-49',
     title: 'ALFA 0.49.0-beta «¿Cuándo era?»',
     body: '¿No te acuerdas de cuándo era? Pregúntale a ALFA «¿cuándo tengo el dentista?», «¿a qué hora es lo del gimnasio?» o «¿tengo apuntado comprar pan?» y te dice el día y la hora, si se repite, o que no tiene fecha.\nFunciona en el móvil sin el PC y en Windows, y encuentra la tarea aunque no la digas igual.',
