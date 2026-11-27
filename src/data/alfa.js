@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.50.0-beta «Cielo de bolsillo»';
+export const VERSION = '0.51.0-beta «Parte del día»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '50', label: 'versiones entregadas' },
+  { value: '51', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.51.0-beta',
+    name: '«Parte del día»',
+    status: 'entregada',
+    text: '«¿Qué tengo hoy?» en el móvil ya incluye el tiempo de tu ciudad, como el resumen de Windows. Y en Windows, «¿qué tiempo hace en Sevilla?» ya no depende del modelo.',
+  },
   {
     version: '0.50.0-beta',
     name: '«Cielo de bolsillo»',

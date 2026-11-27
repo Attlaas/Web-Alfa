@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-51',
+    title: 'ALFA 0.51.0-beta «Parte del día»',
+    body: 'Pregúntale al móvil «¿qué tengo hoy?» y ahora te da el parte completo: qué día es, qué tiempo hace en tu ciudad y lo que tienes apuntado. «¿Qué tengo mañana?» te dice además si hará falta paraguas.\nY en Windows, «¿qué tiempo hace en Sevilla?» se consulta directamente, sin depender del modelo.',
+    tag: 'versión',
+    published_date: '2026-11-27',
+    status: 'publicado',
+  },
+  {
     id: 'v0-50',
     title: 'ALFA 0.50.0-beta «Cielo de bolsillo»',
     body: '¡Versión 50! ALFA Móvil ya te dice el tiempo sin el PC: «¿qué tiempo hace en Sevilla?», «¿va a llover mañana?», «¿necesito paraguas?». Contesta en una frase con el cielo, las temperaturas, la probabilidad de lluvia y cómo está ahora.\nDi tu ciudad una vez y se acuerda. Sin cuentas ni claves (Open-Meteo), y sin conexión usa la última previsión.',
