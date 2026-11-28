@@ -16,7 +16,7 @@ import {
   Smartphone,
 } from 'lucide-react';
 
-export const VERSION = '0.51.0-beta «Parte del día»';
+export const VERSION = '0.52.0-beta «¿Y mañana?»';
 
 // ─── Ajustes que tiene que rellenar Atlas ──────────────────────────────────────────────
 // Enlace de donación (Ko-fi, PayPal.me, Buy Me a Coffee…). Mientras esté vacío, el botón
@@ -46,7 +46,7 @@ export const IMAGES = {
 };
 
 export const HERO_STATS = [
-  { value: '51', label: 'versiones entregadas' },
+  { value: '52', label: 'versiones entregadas' },
   { value: '15.839', label: 'líneas de código Python' },
   { value: '77', label: 'módulos propios' },
   { value: '0', label: 'cuotas para el usuario' },
@@ -170,6 +170,12 @@ export const FUNDING_USE = [
 ];
 
 export const MILESTONES = [
+  {
+    version: '0.52.0-beta',
+    name: '«¿Y mañana?»',
+    status: 'entregada',
+    text: 'El móvil sigue la conversación: después de «¿qué tengo hoy?» o «¿qué tiempo hace?», basta con «¿y mañana?» o «¿y en Madrid?».',
+  },
   {
     version: '0.51.0-beta',
     name: '«Parte del día»',

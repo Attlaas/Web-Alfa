@@ -3,6 +3,14 @@
 // y deja status: 'publicado'. Usa status: 'borrador' para ocultarla.
 export const UPDATES = [
   {
+    id: 'v0-52',
+    title: 'ALFA 0.52.0-beta «¿Y mañana?»',
+    body: 'Habla con ALFA Móvil como con una persona: pregunta «¿qué tiempo hace en Sevilla?» y luego solo «¿y mañana?» o «¿y en Madrid?». Después de «¿qué tengo hoy?», «¿y esta semana?» también vale.\nSe acuerda del tema 10 minutos, y todo sin el PC.',
+    tag: 'versión',
+    published_date: '2026-11-28',
+    status: 'publicado',
+  },
+  {
     id: 'v0-51',
     title: 'ALFA 0.51.0-beta «Parte del día»',
     body: 'Pregúntale al móvil «¿qué tengo hoy?» y ahora te da el parte completo: qué día es, qué tiempo hace en tu ciudad y lo que tienes apuntado. «¿Qué tengo mañana?» te dice además si hará falta paraguas.\nY en Windows, «¿qué tiempo hace en Sevilla?» se consulta directamente, sin depender del modelo.',
